@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="wexin:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/wexin_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wexin" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/xpp3-1.1.4c.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/xstream-1.4.7.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="wexin/web/Web" />
+    </root>
+  </artifact>
+</component>

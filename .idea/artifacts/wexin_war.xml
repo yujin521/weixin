@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="wexin:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/wexin_war</output-path>
+    <root id="archive" name="wexin_war.war">
+      <element id="artifact" artifact-name="wexin:war exploded" />
+    </root>
+  </artifact>
+</component>
